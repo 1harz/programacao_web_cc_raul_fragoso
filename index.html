@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Honda Motos</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="img/logo.png" type="image/x-icon">
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">Motos</a>
+            </div>
+            <div class="menu-icon" id="menu-icon">
+                <span></span>
+                <span class="menu-text">MENU</span>
+            </div>
+            <ul class="menu-options" id="menu-options">
+                <li><a href="#">Modelos</a></li>
+                <li><a href="#">Novidades</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#" id="login-btn">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="login-popup" class="login-popup">
+        <div class="popup-content">
+            <span class="close-btn" id="close-popup">&times;</span>
+            <h2>Login</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <main>
+        <section class="boas_vindas">
+            <div class="boas_vindas-infos">
+                <h1>Explore as Novas Motos</h1>
+                <p>Descubra o melhor em tecnologia e design.</p>
+                <a href="#" class="btn">Ver Modelos</a>
+            </div>
+        </section>
+
+        <section class="modelos">
+            <h2>Nossos Modelos</h2>
+            <div class="lista_modelos">
+                <div class="modelo">
+                    <img src="img/cg.gif" alt="CG 160 2024">
+                    <h3>CG 160</h3>
+                </div>
+                <div class="modelo">
+                    <img src="img/tornado.png" alt="XL 300 Tornado">
+                    <h3>XL 300 Tornado</h3>
+                </div>
+                <div class="modelo">
+                    <img src="img/CRF.png" alt="CRF 250f 2024">
+                    <h3>CRF 250f</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Honda. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>

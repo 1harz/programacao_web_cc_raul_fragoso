@@ -1,6 +1,6 @@
 # programacao_web_cc_raul_fragoso
 
-# Protótipo de Site baseado no site: https://www.honda.com.br/motos/ feito na disciplina de Programacao Web!
+## Protótipo de Site baseado no site: https://www.honda.com.br/motos/ feito na disciplina de Programacao Web!
 
 O projeto inicialmente consiste em criar uma cópia do site https://www.honda.com.br/motos/ em HTML, CSS e JAVASCRIPT! 🏍️
 
@@ -20,9 +20,9 @@ Para visualizar o site, basta abrir o arquivo `index.html` em qualquer navegador
 
 ## Ferramentas Utilizadas:
 
-[![HTML5](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg)](https://www.w3.org/html/)
-[![CSS](https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/CSS.svg)](https://www.w3.org/Style/CSS/)
-[![JavaScript](https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- HTML
+- CSS
+- JavaScript
 
 ---
 
